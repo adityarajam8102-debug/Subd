@@ -1,0 +1,19 @@
+{
+  "name": "secureaxis-backend",
+  "version": "1.0.0",
+  "description": "Backend reconnaissance engine for SecureAxis",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node scanner.js",
+    "dev": "node scanner.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "p-limit": "^4.0.0",
+    "dns": "^0.2.2",
+    "child_process": "^1.0.2"
+  },
+  "keywords": ["reconnaissance", "subdomain", "security", "scanner"],
+  "author": "SecureAxis Team",
+  "license": "MIT"
+}

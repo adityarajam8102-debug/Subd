@@ -1,0 +1,20 @@
+{
+  "name": "secureaxis",
+  "version": "1.0.0",
+  "description": "Advanced subdomain reconnaissance platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && node scanner.js",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": ["cybersecurity", "reconnaissance", "subdomain", "security"],
+  "author": "SecureAxis Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
